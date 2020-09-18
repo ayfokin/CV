@@ -1,10 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="сайт-портфолио">
+    <meta name="keywords" content="резюме,портфолио,студент">
+    <title>Фокин Алексей М3302</title>
 </head>
 <body>
+<header>
+  <h1>ФОКИН<br />АЛЕКСЕЙ<br />ЮРЬЕВИЧ</h1>
+  <p>Студент университета ИТМО<br />Санкт-Петербург</p>
+  <aside>Картинка</aside>
+  <section class="contacts">
+    <dl>
+      <li>Telegram: <a href="https://t.me/lakad_matataaag">@lakad_matataaag</a> </li>
+      <li>ВКонтакте: <a href="https://vk.com/lakad_matataaag">@lakad_matataaag</a> </li>
+      <li>Email: ayfokin@mail.ru </li>
+      <li>Телефон: +79522344248 </li>
+    </dl>
+  </section>
+  <sup><em>"Никогда не ошибается тот, кто ничего не делает"</em></sup>
+</header>
+<main>
+  <section class="education">
+    <h2>Образование</h2>
+    <ol>
+      <li>Детский сад №17, 2003-2007 гг.</li>
+      <li>Школа №15, 2007-2011 гг.</li>
+      <li>Лицей "МКШ", 2011-2018 гг.</li>
+      <li>Университет ИТМО, факультет информационных технологий и программирования, 2018-2022 гг.</li>
+    </ol>
+  </section>
+  <section class="projects">
+    <h2>Проекты</h2>
+    <article><a href="https://github.com/ayfokin">GitHub</a></article>
+    <dl>
+      <li>Чат-бот Telegram для вывода актуального курса валют</li>
+      <li>Плагин для Intellij IDEA</li>
+      <li>Игра на подобии Heroes of Might and Magic 3</li>
+    </dl>
+  </section>
+  <section class="code">
+    <h2>Code</h2>
+    <code><pre>
+      #define _CRT_SECURE_NO_WARNING_
+      #include &lt;iostream&gt;
 
+      int matrix[101][101];
+
+      using namespace std;
+
+      int main() {
+        std::ios_base::sync_with_stdio(false);
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
+        int n, m, i, j;
+        cin >> n >> m;
+        for (int a = 0; a < m; a++) {
+          cin >> i >> j;
+          matrix[i][j] = 1;
+        }
+        for (int i = 1; i <= n; i++) {
+          for (int j = 1; j <= n; j++) {
+            cout << matrix[i][j] << ' ';
+          }
+          cout << endl;
+        }
+        return 0;
+      }
+      </pre></code>
+  </section>
+
+</main>
+<footer>
+  <pre>
+        _
+       \`*-.
+        )  _`-.
+       .  : `. .
+       : _   '  \
+       ; *` _.   `*-._
+       `-.-'          `-.
+         ;       `       `.
+         :.       .        \
+         . \  .   :   .-'   .
+         '  `+.;  ;  '      :
+         :  '  |    ;       ;-.
+         ; '   : :`-:     _.`* ;
+[bug] .*' /  .*' ; .*`- +'  `*'
+      `*-*   `*-*  `*-*'
+    </pre>
+  <time datetime="18.09.2020"><i>2020 г.</i></time>
+</footer>
 </body>
 </html>
