@@ -4,26 +4,33 @@
     <meta charset="utf-8">
     <meta name="description" content="сайт-портфолио">
     <meta name="keywords" content="резюме,портфолио,студент">
+    <link rel="stylesheet" href="outlines.css">
     <title>Фокин Алексей М3302</title>
 </head>
 <body>
 <header>
-  <h1>ФОКИН<br />АЛЕКСЕЙ<br />ЮРЬЕВИЧ</h1>
-  <p>Студент университета ИТМО<br />Санкт-Петербург</p>
-  <aside>Картинка</aside>
-  <section class="contacts">
-    <dl>
-      <li>Telegram: <a href="https://t.me/lakad_matataaag">@lakad_matataaag</a> </li>
-      <li>ВКонтакте: <a href="https://vk.com/lakad_matataaag">@lakad_matataaag</a> </li>
-      <li>Email: ayfokin@mail.ru </li>
-      <li>Телефон: +79522344248 </li>
+  <h1>ФОКИН<br />АЛЕКСЕЙ<br />ЮРЬЕВИЧ</h1><h2>,</h2><h2 class="age"> 19 лет</h2>
+  <img class="photo" src="Anonymous.jpg" alt="">
+    <dl class="contacts">
+      <li><img class="logo" src="Telegram_Logo.png" alt="Telegram: ">
+        <a href="https://t.me/lakad_matataaag">@lakad_matataaag</a></li>
+      <li><img class="logo" src="VK_Logo.png" alt="VK: ">
+        <a href="https://vk.com/lakad_matataaag">@lakad_matataaag</a> </li>
+      <li><img class="logo" src="Email_Logo.png" alt="Email: ">
+        <a href ="mailto:ayfokin@mail.ru">ayfokin@mail.ru</a></li>
+      <li><img class="logo" src="Phone.png" alt="Телефон: ">
+        <a href="tel:+79522344248">+7 952 234-42-48</a></li>
     </dl>
-  </section>
-  <sup><em>"Никогда не ошибается тот, кто ничего не делает"</em></sup>
+  <br /><img class="logo" src="location.png" alt=""><h5>Санкт-Петербург</h5>
+  <h4>Студент университета ИТМО</h4>
+  <blockquote>
+    <em><p>"Никогда не ошибается тот, кто ничего не делает"</p></em>
+    <cite>Теодор Рузвельт</cite>
+  </blockquote>
 </header>
 <main>
+  <h3>ОБРАЗОВАНИЕ</h3>
   <section class="education">
-    <h2>Образование</h2>
     <ol>
       <li>Детский сад №17, 2003-2007 гг.</li>
       <li>Школа №15, 2007-2011 гг.</li>
@@ -31,17 +38,18 @@
       <li>Университет ИТМО, факультет информационных технологий и программирования, 2018-2022 гг.</li>
     </ol>
   </section>
+  <h3>ПРОЕКТЫ</h3>
   <section class="projects">
-    <h2>Проекты</h2>
-    <article><a href="https://github.com/ayfokin">GitHub</a></article>
+    <br /><img class="logo" src="GitHub.png" alt="">
+    <a href="https://github.com/ayfokin">GitHub</a>
     <dl>
       <li>Чат-бот Telegram для вывода актуального курса валют</li>
       <li>Плагин для Intellij IDEA</li>
       <li>Игра на подобии Heroes of Might and Magic 3</li>
     </dl>
   </section>
+  <h3>CODE</h3>
   <section class="code">
-    <h2>Code</h2>
     <code><pre>
       #define _CRT_SECURE_NO_WARNING_
       #include &lt;iostream&gt;
