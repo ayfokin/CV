@@ -4,22 +4,65 @@
     <meta charset="utf-8">
     <meta name="description" content="сайт-портфолио">
     <meta name="keywords" content="резюме,портфолио,студент">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="outlines.css">
     <title>Фокин Алексей М3302</title>
 </head>
 <body>
 <header>
   <h1>ФОКИН<br />АЛЕКСЕЙ<br />ЮРЬЕВИЧ</h1><h2>,</h2><h2 class="age"> 19 лет</h2>
-  <img class="photo" src="Anonymous.jpg" alt="">
+  <img class="photo" src="Anonymous.jpg" id="photo" alt="" onclick="imgsrc()">
     <dl class="contacts">
-      <li><img class="logo" src="Telegram_Logo.png" alt="Telegram: ">
-        <a href="https://t.me/lakad_matataaag">@lakad_matataaag</a></li>
-      <li><img class="logo" src="VK_Logo.png" alt="VK: ">
-        <a href="https://vk.com/lakad_matataaag">@lakad_matataaag</a> </li>
-      <li><img class="logo" src="Email_Logo.png" alt="Email: ">
-        <a href ="mailto:ayfokin@mail.ru">ayfokin@mail.ru</a></li>
-      <li><img class="logo" src="Phone.png" alt="Телефон: ">
-        <a href="tel:+79522344248">+7 952 234-42-48</a></li>
+      <button id="pop_up_show">Контакты</button>
+      <div class="popup_container" id="popup_container">
+          <button id="pop_up_hide">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 22.88 22.88" style="enable-background:new 0 0 22.88 22.88;" xml:space="preserve">
+<path d="M0.324,1.909c-0.429-0.429-0.429-1.143,0-1.587c0.444-0.429,1.143-0.429,1.587,0l9.523,9.539
+	l9.539-9.539c0.429-0.429,1.143-0.429,1.571,0c0.444,0.444,0.444,1.159,0,1.587l-9.523,9.524l9.523,9.539
+	c0.444,0.429,0.444,1.143,0,1.587c-0.429,0.429-1.143,0.429-1.571,0l-9.539-9.539l-9.523,9.539c-0.444,0.429-1.143,0.429-1.587,0
+	c-0.429-0.444-0.429-1.159,0-1.587l9.523-9.539L0.324,1.909z"/>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+                  <g>
+</g>
+</svg>
+          </button>
+      <div class="popup">
+        <div class="popup_content">
+          <li><a href="https://t.me/lakad_matataaag"><img src="Telegram_logo.svg" alt="Telegram"></a></li>
+          <li><a href="https://vk.com/lakad_matataaag"><img src="VK.com-logo.svg" alt="VK"></a></li>
+          <li><a href ="mailto:ayfokin@mail.ru"><img src="Mail_Win10X.png" alt="Email"></a></li>
+          <li><a href="tel:+79522344248"><img src="Circle-icons-phone.svg" alt="Телефон"></a></li>
+        </div>
+      </div>
+      </div>
     </dl>
   <br /><img class="logo" src="location.png" alt=""><h5>Санкт-Петербург</h5>
   <h4>Студент университета ИТМО</h4>
@@ -78,8 +121,8 @@
       }
       </pre></code>
   </section>
-
 </main>
+
 <footer>
   <pre>
         _
